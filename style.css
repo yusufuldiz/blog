@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    background-image: linear-gradient(rgb(8, 8, 59), rgb(9, 129, 99));
+}
+.navbar {
+    background-color:gray;
+    color:white;
+    font-size:26px;
+    max-width:1000px;
+    min-height:100px;
+    margin: auto;
+    padding: 3%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    position: relative;
+}
+.navbar > a {
+    position: absolute;
+    right: 30px;
+}
+.navbar > span {
+    background-color: turquoise;
+    padding: 1%;
+    color:tomato
+}
+.navbar > span:hover {
+    background-color: rgb(13, 54, 50);
+    padding: 1%;
+    color:rgb(251, 255, 0)
+}
+.main-content {
+    background-color: rgb(227, 238, 252);
+    max-width: 1000px;
+    margin: auto;
+    font-size: 22px;
+    padding: 3%;
+}
+ .blog > p > code{
+     font-size: 20px;
+ }
+.blog {
+    color:black;
+}
+.line-numbers {
+    background-color: rgb(39, 39, 53);
+}
+.language-js {
+    font-size: 16px;
+    color: white;
+}
